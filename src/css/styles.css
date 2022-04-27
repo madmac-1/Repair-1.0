@@ -51,3 +51,34 @@ a:hover{
 .navLinkWrapper {
     height: 22px;
 }
+
+/* contact.html */
+
+.contact-form {
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 10px;
+    width: fit-content;
+    height: auto;
+    padding: 20px;
+    padding-left: 250px;
+    padding-top: 10px;
+}
+
+.contact-form > label {
+    color: white;
+}
+
+#contactText {
+    padding-left: 50px;
+}
+
+#contact-message, #contact-email, #contact-name {
+    background: #41454d;
+    border: none;
+}
+
+#submit-button {
+    background: #e3e5e8;
+    border: none;
+}

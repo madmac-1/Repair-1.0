@@ -15,17 +15,32 @@
       <nav>
         <div class="left-side">
           <div class="navLink">
-            <a href="index.html">Home&nbsp;|</a>
+            <a href="/index.html">Home&nbsp;|</a>
           </div>
           <div class="navLink">
-            <a href="contact.html">&nbsp;Contact</a>
+            <a href="/contact.html">&nbsp;Contact</a>
           </div>
 
         </div>
       </nav>
     </div>
 
-    <h1>Contact Me</h1>
+    <h1 id="contactText">Contact Me</h1>
+
+    <div class="formWrapper">
+      <form class="contact-form" action="https://formsubmit.co/phonerepairmac@gmail.com" method="POST">
+        <label for="name"><b>Name</b></label>
+        <input type="text" name="name" placeholder="Kingerious" id="contact-name" required>
+        <label for="email"><b>Email</b></label>
+        <input type="email" name="email" placeholder="you@email.com" id="contact-email" required>
+        <label for="message"><b>Message</b></label>
+        <textarea name="message" id="contact-message" cols="30" rows="7" placeholder="im having an issue with..."
+          required></textarea>
+        <input type="hidden" name="_next" value="/thankyou.html">
+        <input type="hidden" name="_cc" value="mohammedsiddiqui2009@gmail.com, macauly.parsons69@gmail.com">
+        <button type="submit" onclick="send()" id="submit-button">Submit</button>
+      </form>
+    </div>
   </div>
   <!--scripts-->
   <script src="/src/js/index.js"></script>
