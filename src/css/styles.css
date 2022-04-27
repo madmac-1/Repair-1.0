@@ -13,9 +13,34 @@ h1 {
     font-size: 3vw;
 }
 
+h2 {
+    color: white;
+    font-size: 2vw;
+}
+
 h3 {
     color: white;
     font-size: 2vw;
+}
+
+h4 {
+    color: white;
+    font-size: 2vw;
+}
+
+h5 {
+    color: white;
+    font-size: 2vw;
+}
+
+p {
+    color: white;
+    font-size: 2vw;
+}
+
+label{
+    color: white;
+    font-size: 1.75vw;
 }
 
 a{
@@ -63,10 +88,6 @@ a:hover{
     padding: 20px;
     padding-left: 250px;
     padding-top: 10px;
-}
-
-.contact-form > label {
-    color: white;
 }
 
 #contactText {
