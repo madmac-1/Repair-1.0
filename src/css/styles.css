@@ -75,6 +75,7 @@ a:hover{
 
 #contact-message, #contact-email, #contact-name {
     background: #41454d;
+    color: white;
     border: none;
 }
 
