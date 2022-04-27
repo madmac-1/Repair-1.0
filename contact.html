@@ -28,7 +28,7 @@
     <h1 id="contactText">Contact Me</h1>
 
     <div class="formWrapper">
-      <form class="contact-form" action="https://formsubmit.co/phonerepairmac@gmail.com" method="POST">
+      <form method="POST" class="contact-form" action="https://formsubmit.co/phonerepairmac@gmail.com">
         <label for="name"><b>Name</b></label>
         <input type="text" name="name" placeholder="Kingerious" id="contact-name" required>
         <label for="email"><b>Email</b></label>
@@ -36,7 +36,7 @@
         <label for="message"><b>Message</b></label>
         <textarea name="message" id="contact-message" cols="30" rows="7" placeholder="im having an issue with..."
           required></textarea>
-        <input type="hidden" name="_next" value="/thankyou.html">
+        <input type="hidden" name="_next" value="thankyou.html">
         <button type="submit" onclick="send()" id="submit-button">Submit</button>
       </form>
     </div>
