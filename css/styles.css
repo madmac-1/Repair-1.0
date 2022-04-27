@@ -1,4 +1,4 @@
-/* main styles */
+/* element styles */
 body {
     padding: 20px;
     margin: 0px;
@@ -18,8 +18,6 @@ h3 {
     font-size: 2vw;
 }
 
-/* index.html*/
-
 a{
     text-decoration: none;
     transition: var(--transitionTime);
@@ -30,4 +28,26 @@ a:hover{
     text-decoration: none;
     transition: var(--transitionTime);
     color: #f5f5f5;
+}
+
+/* nav styles */
+
+.navWrapper {
+    display: flex;
+    padding: 30px;
+    font-size: 1.5vw;
+}
+
+.left-side {
+    display: flex;
+}
+
+.navWrapper>.left-side>div {
+    margin-right: 20px;
+    font-size: 0.98em;
+    text-transform: uppercase;
+}
+
+.navLinkWrapper {
+    height: 22px;
 }
