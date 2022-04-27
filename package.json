@@ -1,0 +1,27 @@
+{
+  "name": "phonerepairuk.tk",
+  "version": "1.0.0",
+  "description": "official website of phonerepairmac",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/madmac-1/Repair-1.0.git"
+  },
+  "keywords": [
+    "phonerepair",
+    "phonerepairmac",
+    "phonerepairuk",
+    "macbook",
+    "macbookofficial"
+  ],
+  "author": "Kingerious#4777 & ⚡ Macbook Official ⚡#0001",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/madmac-1/Repair-1.0/issues"
+  },
+  "homepage": "https://github.com/madmac-1/Repair-1.0#readme",
+  "dependencies": {}
+}
