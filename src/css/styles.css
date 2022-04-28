@@ -44,15 +44,22 @@ label{
 }
 
 a{
+    font-size: 1.75vw;
     text-decoration: none;
     transition: var(--transitionTime);
     color: white;
 }
 
 a:hover{
+    font-size: 1.75vw;
     text-decoration: none;
     transition: var(--transitionTime);
     color: #f5f5f5;
+}
+
+code {
+  background-color: #D1D2DC;
+  color: #000000;
 }
 
 /* nav styles */
@@ -86,12 +93,12 @@ a:hover{
     width: fit-content;
     height: auto;
     padding: 20px;
-    padding-left: 250px;
     padding-top: 10px;
+    float: left;
 }
 
 #contactText {
-    padding-left: 50px;
+    padding-left: 35px;
 }
 
 #contact-message, #contact-email, #contact-name {
